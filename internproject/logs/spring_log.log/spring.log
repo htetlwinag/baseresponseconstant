@@ -1,0 +1,31 @@
+2020-10-06 15:05:36.915  INFO 7788 --- [restartedMain] c.i.demo.InternprojectApplication        : Starting InternprojectApplication on LAPTOP-ROQCOL67 with PID 7788 (C:\Users\User\Desktop\SpringProject\internproject\target\classes started by User in C:\Users\User\Desktop\SpringProject\internproject)
+2020-10-06 15:05:36.922  INFO 7788 --- [restartedMain] c.i.demo.InternprojectApplication        : No active profile set, falling back to default profiles: default
+2020-10-06 15:05:36.979  INFO 7788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-06 15:05:36.979  INFO 7788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-06 15:05:37.893  INFO 7788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-06 15:05:37.952  INFO 7788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 1 JPA repository interfaces.
+2020-10-06 15:05:38.230  INFO 7788 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3418b4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 15:05:38.269  INFO 7788 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-06 15:05:38.621  INFO 7788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-10-06 15:05:38.628  INFO 7788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-06 15:05:38.629  INFO 7788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-06 15:05:38.701  INFO 7788 --- [restartedMain] o.a.c.c.C.[.[localhost].[/student]       : Initializing Spring embedded WebApplicationContext
+2020-10-06 15:05:38.701  INFO 7788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1714 ms
+2020-10-06 15:05:38.942  INFO 7788 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 15:05:38.995  INFO 7788 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-06 15:05:39.044  INFO 7788 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-10-06 15:05:39.227  INFO 7788 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-06 15:05:39.317  INFO 7788 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-06 15:05:39.425  WARN 7788 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-06 15:05:39.887  INFO 7788 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-06 15:05:39.940  INFO 7788 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-06 15:05:40.644  INFO 7788 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-06 15:05:40.661  INFO 7788 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-06 15:05:41.217  INFO 7788 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-06 15:05:41.775  INFO 7788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/student'
+2020-10-06 15:05:42.144  INFO 7788 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-06 15:05:42.188  INFO 7788 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-06 15:05:42.197  INFO 7788 --- [restartedMain] c.i.demo.InternprojectApplication        : Started InternprojectApplication in 5.571 seconds (JVM running for 6.325)
+2020-10-06 15:05:57.399  INFO 7788 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/student]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 15:05:57.400  INFO 7788 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-06 15:05:57.435  INFO 7788 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
